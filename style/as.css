@@ -76,7 +76,7 @@ height: 89px;
 
 .subtitle {
   margin: 0;
-  font-size: ;1.1rem
+  font-size: 1.1rem;
 }
 
 .side-img {
@@ -157,7 +157,7 @@ margin: 0 0 8 0;
 
 .img-name {
   font-weight: 700;
-  font-size: 1.7em
+  font-size: 1.7em;
   margin-bottom: 5px;
   gap:10px;
 
@@ -247,7 +247,7 @@ margin: 0 0 8 0;
   font-size: 16px;
   margin-bottom: 10px;
 }
-}
+
 .hug-section {
   width: 1440px;
   height: 200px;
@@ -271,7 +271,7 @@ margin: 0 0 8 0;
 }
 
 .orange-span {
-  color:;#000000;
+  color:#000000;
 }
 
 .hug-subtitle {
@@ -287,7 +287,7 @@ margin: 0 0 8 0;
   background-color: #252432;
   color: #fff;
   display: flex;
-  position: fixed
+  position: fixed;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -444,7 +444,7 @@ margin: 0 0 8 0;
   flex: 1;
   text-align: center;
 }
-    }
+    
 
     .img-info h3 {
       font-size: 1.2rem;
