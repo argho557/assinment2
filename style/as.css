@@ -62,7 +62,7 @@
 
 .text-flex {
   display: flex;
-  flex-direction: column; /* stack h1 above h4 */
+  flex-direction: column; 
   justify-content: center;
 }
 
@@ -70,7 +70,7 @@
 font-weight: 517px;
 height: 89px;
 
-  margin: 0 0 8px 0; /* small space below h1 */
+  margin: 0 0 8px 0; 
   font-size: larger;
 }
 
@@ -227,13 +227,13 @@ margin: 0 0 8 0;
 .right-content {
   width: 540px;
   height: 521px;
-  margin-top: 30px; /* একটু নিচে নামানোর জন্য */
+  margin-top: 30px; 
   padding: 20px;
   background-color: #fff;
 }
 
 .title {
-  font-size: 28px;
+  font-size: 3em;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -241,11 +241,17 @@ margin: 0 0 8 0;
 .subtitle-list {
   list-style-type: disc;
   padding-left: 20px;
+  color: #000000;
+  color:#dcd9d9;
+  font-weight: 700;
+    
 }
 
 .subtitle-list li {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 10px;
+ 
+  
 }
 
 .hug-section {
