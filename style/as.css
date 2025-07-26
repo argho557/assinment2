@@ -171,8 +171,8 @@ margin: 0 0 8 0;
 }
 
 .buy-btn {
-  width: 100%; /* fills the .img-info container */
-  max-width: 275px; /* never exceeds box width */
+  width: 100%; 
+  max-width: 275px; 
   height: 50px;
   background: #E95A08;
   color: #fff;
@@ -192,73 +192,61 @@ margin: 0 0 8 0;
   box-sizing: border-box;
   padding: 0;
 }
-.plant-lover-section {
-  position: relative;
+.custom-section {
+  width: 1140px;
+  height: 597px;
+  margin: 0 auto; 
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 0;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  
 }
 
-.plant-lover-row {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.plant-lover-img {
+.left-img-box {
   position: relative;
-  display: block;
   width: 540px;
   height: 597px;
-  border-radius: 12px;
 }
-.badge-img {
-  height: 286px;
-  width: 286px;
-  top: 0px;
-  right: 0px;
-  position: absolute;
+
+.main-img {
+  width: 540px;
+  height: 597px;
+  object-fit: cover;
   display: block;
-  top: right;
-  
-  
+}
+
+.badge-img {
   position: absolute;
-  top: 0px;    
-  right: 0px;  
-  width: 286px;
+  top: 0;
+  right: 0;
+  width: 286px ;
   height: auto;
+  z-index: 10;
 }
 
-.plant-lover-content {
-  text-align: left;
-  
+.right-content {
+  width: 540px;
+  height: 521px;
+  margin-top: 30px; /* একটু নিচে নামানোর জন্য */
+  padding: 20px;
+  background-color: #fff;
 }
 
-.plant-lover-title {
-  font-size: 2rem;          
-  font-weight: 700;          
-  line-height: 1.2; 
-  margin-bottom: 18px;
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.plant-lover-list {
-  
-  list-style: disc inside;
-  font-size: 1.1rem;
-  padding-left: 0;
-  margin: 0;
+.subtitle-list {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
-@media (max-width: 768px) {
-  .plant-lover-row {
-    flex-direction: column;
-    gap: 24px;
-  }
-  .plant-lover-content {
-    text-align: left;
-    width: 100%;
-  }
+.subtitle-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
 }
 .hug-section {
   width: 1440px;
